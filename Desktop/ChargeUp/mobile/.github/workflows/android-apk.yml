@@ -1,4 +1,28 @@
   GNU nano 9.0           .github/workflows/android-apk.yml
+  GNU nano 9.0           .github/workflows/android-apk.yml
+# mobile/.github/workflows/android-apk.yml
+name: Build Expo APK
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+                 [ Read 63 lines (converted from DOS format) ]
+^G Help      ^O Write Out ^F Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
+  GNU nano 9.0           .github/workflows/android-apk.yml
 # mobile/.github/workflows/android-apk.yml
 name: Build Expo APK
 
